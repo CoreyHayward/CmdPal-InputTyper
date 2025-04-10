@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "InputTyperExtension (Package)": {
+      "commandName": "MsixPackage",
+      "doNotLaunchApp": true
+    },
+    "InputTyperExtension (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
