@@ -14,15 +14,14 @@ public partial class InputTyperExtensionCommandsProvider : CommandProvider
     public InputTyperExtensionCommandsProvider()
     {
         DisplayName = "Input Typer";
-        Icon = IconHelpers.FromRelativePath("Assets\\StoreLogo.png");
+        Icon = Constants.Icon;
         _commands = [
-            new CommandItem(new InputTyperExtensionPage()) { Title = DisplayName },
+            new CommandItem(new InputTyperExtensionPage()) { Title = DisplayName, Subtitle= "Type text as if it was sent from the keyboard" },
         ];
     }
 
-    public override ICommandItem[] TopLevelCommands()
-    {
-        return _commands;
-    }
+    public override ICommandItem[] TopLevelCommands() => _commands;
+
+
 
 }
