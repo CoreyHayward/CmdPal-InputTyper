@@ -10,7 +10,7 @@
 
 Simple [PowerToys CmdPal](https://learn.microsoft.com/en-gb/windows/powertoys/command-palette/overview) plugin for easily typing input as if from a keyboard. Ideal for remote environments and other scenarios where pasting isn't possible.
 
-![InputTyper Demonstration](/images/InputTyper.gif)
+![InputTyper Demonstration](/Images/InputTyper.gif)
 
 ## Requirements
 
