@@ -17,11 +17,10 @@ Simple [PowerToys CmdPal](https://learn.microsoft.com/en-gb/windows/powertoys/co
 - PowerToys minimum version 0.90.0
 
 ## Installation
-
-- Download the [latest release](https://github.com/CoreyHayward/CmdPal-InputTyper/releases/) by selecting the architecture that matches your machine: `x64` (more common) or `ARM64`
-- Extract the archive and run the Install.ps1
-- This will install the certificate into the TrustedPublishers store and install the extension
-- Open PowerToys CmdPal
+This extension can be installed via winget using the built in extension installer directly from Command Palette!
+- Open Command Palette
+- Select "Install Command Palette Extensions"
+- Search for and select "Input Typer For Command Palette"
 
 ## Usage
 - Select/Place cursor where text should be typed 
