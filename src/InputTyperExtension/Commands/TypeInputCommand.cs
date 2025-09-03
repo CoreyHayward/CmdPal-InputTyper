@@ -17,7 +17,11 @@ internal sealed partial class TypeInputCommand : InvokableCommand
     {
         Icon = IconHelpers.FromRelativePath("Assets\\InputTyper.dark.png");
         _text = text;
-        Name = $"{displayPrefix} '{_text}'";
+        
+        // Hide the text if this is a clipboard command and the setting is enabled
+        var isClipboardCommand = displayPrefix.Contains("Clipboard");
+        var displayText = (isClipboardCommand && Settings.HideClipboardText) ? "[hidden]" : _text;
+        Name = $"{displayPrefix} '{displayText}'";
         return;
     }
 
